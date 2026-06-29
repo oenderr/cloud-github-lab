@@ -39,7 +39,7 @@ A minimal FastAPI application designed for deployment to cloud platforms (like A
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
-4. Open your browser to `http://localhost:8000` for the API documentation (Swagger UI) or visit:
+4. Open your browser to `http://localhost:8000/docs` for the API documentation (Swagger UI) or visit:
    - Health check: `http://localhost:8000/health`
    - Info: `http://localhost:8000/info`
 
